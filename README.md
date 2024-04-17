@@ -6,7 +6,6 @@ This C program generates Sudoku puzzles of varying difficulty levels and provide
 1. **Grid Generation**: The program generates a fully filled 9x9 Sudoku grid adhering to Sudoku rules using the backtracking method and the `isSafe()` function to ensure validity.
 2. **Difficulty Setting**: The `setDifficulty()` function converts the filled grid into a puzzle by randomly removing values within specified upper and lower limits, offering different difficulty levels.
 3. **User Interface**: The program utilizes the `GetCh()` function to allow players to navigate through the grid and input numbers without needing to press enter. It prevents inserting numbers into filled cells, allows users to remove their own filled numbers, and marks incorrect user-filled cells with a '^' symbol.
-4. **Comparison and Feedback**: User inputs are stored in `user_grid[9][9]`, compared with the solved grid `grid[9][9]`, and displayed to the user through the `list` array. Conversion from integers to strings is facilitated by the `citoa()` function.
-5. **Winning Condition**: At the end of each iteration, the program checks if the winning condition is met and displays a congratulatory message along with the solved grid.
+4. **Winning Condition**: At the end of each iteration, the program checks if the winning condition is met and displays a congratulatory message along with the solved grid.
 
 In summary, this code provides a user-friendly interface for solving Sudoku puzzles of different difficulty levels, ensuring adherence to rules and providing helpful feedback during the game.
