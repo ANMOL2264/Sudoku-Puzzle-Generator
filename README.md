@@ -8,4 +8,7 @@ This C program generates Sudoku puzzles of varying difficulty levels and provide
 3. **User Interface**: The program utilizes the `GetCh()` function to allow players to navigate through the grid and input numbers without needing to press enter. It prevents inserting numbers into filled cells, allows users to remove their own filled numbers, and marks incorrect user-filled cells with a '^' symbol.
 4. **Winning Condition**: At the end of each iteration, the program checks if the winning condition is met and displays a congratulatory message along with the solved grid.
 
-In summary, this code provides a user-friendly interface for solving Sudoku puzzles of different difficulty levels, ensuring adherence to rules and providing helpful feedback during the game.
+## Output example on Hard Difficulty:
+
+https://github.com/ANMOL2264/Sudoku-Puzzle-Generator/assets/116148523/83549263-8dc3-4dfc-ae97-3c5a68cc7952
+
